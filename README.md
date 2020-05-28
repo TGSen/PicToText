@@ -12,6 +12,6 @@ https://firebase.google.com/docs/ml-kit/android/translate-text
 https://firebase.google.com/docs/ml-kit/android/identify-languages
 
 # Groupmates
-@hongyip
+[@hongyiptang](https://github.com/hongyiptang)
 @lewkemho
 @ericlock
