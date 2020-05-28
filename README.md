@@ -14,4 +14,4 @@ https://firebase.google.com/docs/ml-kit/android/identify-languages
 # Groupmates
 @[hongyiptang](https://github.com/hongyiptang)
 @[lewkemho](https://github.com/kemholew)
-@[ericlock]()
+@[ericlock](https://github.com/ericL97)
