@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OutputActivity">
+
+    <TextView
+        android:id="@+id/txtVTranslate"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="20dp"
+        android:text="Translated :"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTranslate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOriginal" />
+
+    <Button
+        android:id="@+id/btnTranslateOutput"
+        android:layout_width="139dp"
+        android:layout_height="47dp"
+        android:background="@drawable/normalbtn"
+        android:text="Translate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTranslate"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <Button
+        android:id="@+id/btnSaveOutput"
+        android:layout_width="139dp"
+        android:layout_height="47dp"
+        android:background="@drawable/normalbtn"
+        android:text="SAve"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTranslate"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <EditText
+        android:id="@+id/editTextTranslate"
+        android:layout_width="354dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOriginal" />
+
+    <EditText
+        android:id="@+id/editTextOriginal"
+        android:layout_width="358dp"
+        android:layout_height="226dp"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <TextView
+        android:id="@+id/txtVOriginal"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:text="Original Text :"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextOriginal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
